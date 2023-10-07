@@ -3,34 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Login</title>
 </head>
-<body>
-    <img style="height: 50px;" src="./logo.png" alt="logo">
-    <li><a href="./index.html">Home</a></li>
-    <li><a href="./address.html">Addresses</a></li>
-    <li><a href="./about.html">About</a> </li>
+<body class="login">
+    <img class="logo" src="./logo.png" alt="logo">
+    <div class="link-card">
+      <ul class="link-list">
+        <li class="link"><a href="./index.html">Home</a></li>
+        <li class="link"><a href="./address.html">Addresses</a></li>
+        <li class="link"><a href="./about.html">About</a> </li>
+      </ul>  
+    </div>
+    
     <h1>Ambassadors of Hope</h1>
-    <p>
+    <p style="color: whitesmoke;">
         For first-time users, please register your credentials then offer a membership fee of 50 Kes to 
-        the accountant through the paybill account that you will be provided with.
+        the treasurer through the paybill account that you will be provided with.
     </p>
 
-    <h2>Login</h2>
-    <div style= "color:rgb(141, 80, 255);">
-        Username:<br>
-        Password:<br><br>
-        <a href="">Forgot Password</a><hr>
-    </div>
-    <h2>Register</h2>
-    <div style= "color:rgb(83, 80, 255);">
-        First Name:<br>
-        Second Name:<br>
-        Date of Birth:<br>
-        Username:<br>
-        New Password:<br>
-        Confirm Password:<hr>
-    </div><hr>
+    
+    <div class="login-register-card">
+      
+        <div class="login-card">
+            <h2>Login</h2>
+           <p>Username:_____________________<br>
+            Password:_____________________
+           </p><br>
+            <button> Forgot Password</button>
+        </div>
+        
+        <div class="register-card">
+         <h2>Register</h2>
+         <p>First Name:___________<br>
+            Second Name:_________<br>
+            Date of Birth:__/__/_____<br>
+            Username:____________<br>
+            New Password:_________<br>
+            Confirm Password:_______<br>
+         </p>
+         <button>Submit</button>
+        </div>
+    </div><hr><hr>
     <footer>
         <p style="text-align: center;">
             Powered by 🔥<span style="color: crimson;">CrimsonTech</span>🔥 Copyright 2023
