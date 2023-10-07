@@ -1,0 +1,138 @@
+body {
+    background-color: rgba(198, 228, 241, 0.637);
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.about {
+    background-image: url(./5.jpg);
+}
+.home {
+    
+}
+.address {
+    background-image: url(./4.jpg);
+    color:rgb(119, 160, 163);
+}
+.login {
+    background-image: url(./6.jpg);
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.link-card {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 5px;
+    padding-right: 10px;
+    
+}
+.link-list{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+        
+}
+.link {
+    padding: 5px;
+}
+.leadership-card {
+    background-image: url(./5.jpg);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color:rgb(0, 0, 0)
+
+}
+.leader-card {
+    
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 450px;
+    
+
+}
+.leaders {
+   float: right;
+   margin-left: 20px;
+   border-radius: 30px;
+   
+}
+.login-register-card {
+    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    width: 400px;
+    
+}
+.login-card {
+    background-color: rgb(91, 161, 163);
+    margin-top: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-radius: 20px;
+
+}
+.register-card {
+    background-color: rgb(92, 185, 146);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-radius: 20px;
+
+}
+button {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+
+}
+
+    
+
+.body-card {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.image {
+    width: 100%;
+    border-radius: 10px;
+}
+@media (max-width: 600px){
+    .leader-card {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    .logo {
+        width: 100px;
+    }
+}
